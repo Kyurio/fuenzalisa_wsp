@@ -1,5 +1,6 @@
 <?php
 include_once 'app/router/ViewLoader.php';
+include_once 'app/utils/helpers.php';
 
 $viewLoader = new ViewLoader();
 
