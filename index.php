@@ -6,8 +6,6 @@ $viewLoader = new ViewLoader();
 
 # Obtener la ruta desde la URL
 $request = $_SERVER['REQUEST_URI'];
-
-# Obtener el último segmento de la ruta (después del último '/')
 $valor = @array_pop(array_filter(explode('/', '.' . $request)));
 
 # Si no hay ningún valor después del nombre del proyecto, asumir la ruta raíz
